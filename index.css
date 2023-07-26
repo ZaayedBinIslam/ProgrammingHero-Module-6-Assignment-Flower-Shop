@@ -180,3 +180,9 @@ section {
     margin: 100px 430px 100px 0 ;
 }
 
+/* instagram section */
+.instagram-flowers{
+    display: flex;
+    justify-content: center ;
+    gap: 24px;
+}
