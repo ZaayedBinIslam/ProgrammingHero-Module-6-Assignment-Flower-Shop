@@ -218,7 +218,7 @@ section {
 .latest-deals-container {
     margin-left: 230px;
     margin-right: 230px;
-    background-image: url('/assets/Rectangle\ 9.png');
+    background-image: url("assets/Rectangle\ 9.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
