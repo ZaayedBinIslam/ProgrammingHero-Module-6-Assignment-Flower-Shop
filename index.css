@@ -36,6 +36,10 @@ body {
     margin-bottom: 48px;
 }
 
+section {
+    margin-bottom: 128px;
+}
+
 /* header section */
 .header {
     background: rgba(229, 84, 115, 0.10);
@@ -71,28 +75,28 @@ body {
 }
 
 /* main section */
+
+/* featured section */
 .featured-flowers {
     display: flex;
     justify-content: center;
     gap: 25px;
 }
 
-.flower-bg {
-    /* border-radius: 300px 300px 0px 0px; */
-}
-
-.flower-1-bg{
+.flower-1-bg {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 110px 76px 0;
 
 }
-.flower-2-bg{
+
+.flower-2-bg {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 117px 47px 50px;
 }
-.flower-3-bg{
+
+.flower-3-bg {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     padding: 67px 75px 0px;
@@ -108,4 +112,31 @@ body {
     text-decoration-line: underline;
     margin-top: 32px;
 
+}
+
+/* delivery info section */
+
+.delivery-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-left: 240px;
+    margin-right: 240px;
+    padding: 86px 175px;
+}
+.info-img{
+    display: flex;
+}
+
+
+.info-desc {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
