@@ -76,6 +76,10 @@ section {
 /* main section */
 
 /* featured section */
+.featured>p{
+    margin-left: 663px;
+    margin-right: 663px;
+}
 .featured-flowers {
     display: flex;
     justify-content: center;
@@ -182,6 +186,10 @@ section {
 }
 
 /* instagram section */
+.instagram>p{
+    margin-left: 663px;
+    margin-right: 663px;
+}
 .instagram-flowers {
     display: flex;
     justify-content: center;
@@ -190,20 +198,39 @@ section {
     margin-right: 240px;
 }
 
+/* wdding decoration EXTRA SECTION */
+.deco-img{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    background:  rgba(230, 78, 111, 0.05);
+    padding: 20px;
+    margin-left: 240px;
+    margin-right: 240px;
+    border-radius: 50px;
+}
+.wedding-img{
+    border-radius: 18px;
+}
+
 /* latest deals section */
 
 .latest-deals-container {
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 230px;
+    margin-right: 230px;
     background-image: url('/assets/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-position: top;
+    background-size: contain;
+    max-height: 450px;
     height: 100vh;
-    /* background-position: center; */
 }
 
+
 .latest-deals-content {
-    padding: 122px 520px 16px;
+    /* padding: 122px 520px 16px; */
+    text-align: center;
+    padding-top: 122px;
 }
 
 .deals-form {
@@ -221,4 +248,39 @@ section {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* footer section */
+.footer-container {
+    background: #111010;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.footer-title {
+    text-align: center;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-title>span {
+    color: #E55473;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 648px 32px;
+}
+
+.footer-end {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
 }
